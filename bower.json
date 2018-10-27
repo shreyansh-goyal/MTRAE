@@ -1,0 +1,20 @@
+{
+  "name": "MTRAE",
+  "authors": [
+    "shreyansh <shreyanshgoyal90@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
