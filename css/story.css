@@ -1,0 +1,195 @@
+html,body
+{
+    width: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.background-layer{
+    background-color:#2E86C1;
+    margin-top:2px;
+    height:6px;
+    margin-left:6px;
+    width:99%;
+    border-radius:12px;
+}
+.image
+{
+    height:27vw;
+    width:100%;
+    border-radius:12px;
+}
+.subtitle
+{
+    font-size:11pt;
+    text-align:center;
+    color:maroon;
+}
+.paragraph
+{
+    width:100%;
+    font-size:14pt;
+    font-family:'Caudex';
+    line-height:30px;
+    text-align:justify;
+    margin:2px;
+}
+@media only screen and (min-width:900px)
+{
+    .maindivision
+    {
+        background-color:white;
+        width:65vw;
+        margin-left:auto;
+        margin-bottom:1vw;
+        margin-right:auto;
+        margin-top:1vw;
+        padding:0 40px;
+        box-shadow: 0 4px 8px 0 rgba(170, 161, 161, 0.2) ,0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .story1
+    {
+        height:23vw;
+        width:20vw;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        
+        margin-top:10px;
+    }
+    .story2
+    {
+        height:23vw;
+        
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        width:70%;
+        margin-top:10px;
+    
+    }
+    .headline
+    {
+        text-align:center;
+        font-size:35px;
+        font-weight:500;
+        width:99%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .paragraph
+    {
+        width:100%;
+        font-size:14pt;
+        font-family:'Caudex';
+        line-height:30px;
+        text-align:justify;
+        margin:2px;
+    }
+    .certi1
+    {
+        height:25vw;
+        margin-right:10%;
+    }
+    .certi2
+    {
+        height:24vw;
+    }
+    .width
+    {
+        width:72%;
+    }
+    .images
+    {
+        height:20vw;
+        width:60%;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .divwidth{
+        width:100%;
+    }
+}
+@media only screen and (max-width:900px)
+{
+    .divwidth{
+        width:120% !important;
+    }
+    .maindivision
+    {
+        background-color:white;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+        
+    }
+    .story1
+    {
+        height:200px;
+        width:130px;
+        margin-left:30%;
+        margin-right:auto;
+        margin-top:2%
+
+    }
+    .story2
+    {
+        height:150px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    }
+    .headline
+    {
+        text-align:center;
+        font-size:20px;
+        font-weight:500;
+        width:99%;
+        margin-left:auto;
+        margin-right:auto;
+    
+    }
+    .paragraph
+    {
+        width:100%;
+        font-size:11pt;
+        font-family:'Caudex';
+        line-height:20px;
+        text-align:justify;
+        margin:2px;
+    }
+    .certi1
+    {
+        height:350px;
+        margin-bottom:5%;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .certi2
+    {
+        height:330px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .width
+    {
+        width:100%;
+    }
+    .images
+    {
+        height:190px;
+        width:90%;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
