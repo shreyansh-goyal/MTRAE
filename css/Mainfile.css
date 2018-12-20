@@ -1,3 +1,6 @@
+input[type=text]:focus
+  {outline:none;
+  }
 .your-class p{
     font-weight:bolder;
     text-align:center;
@@ -15,14 +18,14 @@
 @media only screen and (min-width:900px) 
 {
     .your-class img{
-        height:27vw;
+        height:22vw;
     }
     #latest-stories .box
     {   border:1px;
         border-radius:2px;
-        margin:2px;
+        margin:0 1.5vw;
         overflow-y: auto;
-        width:23vw;
+        width:20vw;
         min-height:24vw;
         background-color:#F8F8F8;
     }
@@ -47,12 +50,18 @@
     {
         color:white;
         background-color:#2E86C1;
-        min-height:300px;
+        min-height:150px;
     }
 
 }
 @media(max-width:900px)
 {
+   #wi{
+       width:103%;
+   }
+    .your-class img{
+       height:170px;
+   }
     body
     {
         overflow-x: hidden;
@@ -105,7 +114,7 @@
 text-decoration:none;
 }
 .icons i{
-margin-right:30px;
+
 transition: transform 1s;
 color:white;
 }

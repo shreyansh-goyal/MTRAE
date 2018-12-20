@@ -18,7 +18,7 @@ function submitform(e)
     var Profession=getinputval('Profession');
     var email=getinputval('email');
     var text=getinputval('text');
-    savemessage(Fname,Lname,Profession,email,text,image);
+    savemessage(Fname,Lname,Profession,email,text);
 }
 function getinputval(id){
     return document.getElementById(id).value;

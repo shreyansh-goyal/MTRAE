@@ -36,8 +36,17 @@ html,body
     text-align:justify;
     margin:2px;
 }
+
 @media only screen and (min-width:900px)
 {
+   #adjust
+   {
+    width:20vw;
+   }
+    #story8{
+        width:19vw;
+        height:19vw;
+    }
     .maindivision
     {
         background-color:white;
@@ -47,6 +56,7 @@ html,body
         margin-right:auto;
         margin-top:1vw;
         padding:0 40px;
+        padding-bottom:17px;
         box-shadow: 0 4px 8px 0 rgba(170, 161, 161, 0.2) ,0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -92,7 +102,7 @@ html,body
     .certi1
     {
         height:25vw;
-        margin-right:10%;
+        margin-right:5%;
     }
     .certi2
     {
@@ -117,6 +127,10 @@ html,body
 }
 @media only screen and (max-width:900px)
 {
+    #story8{
+        width:180px;
+        height:180px;
+    }
     .divwidth{
         width:120% !important;
     }
@@ -127,6 +141,7 @@ html,body
         margin-left:auto;
         margin-right:auto;
         width:90%;
+        padding-bottom:10px;
         
     }
     .story1
@@ -166,7 +181,8 @@ html,body
     }
     .certi1
     {
-        height:350px;
+        height:330px;
+        width:285px;
         margin-bottom:5%;
         display:block;
         margin-left:auto;
