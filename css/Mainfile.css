@@ -1,16 +1,31 @@
+.navbar-default
+{
+    background-color:#2E86C1;   
+}
+.navbar-default .navbar-nav > li > a
+{
+    color:white;
+}
 input[type=text]:focus
-  {outline:none;
+  {
+      outline:none;
   }
-.your-class p{
+.your-class p
+{
     font-weight:bolder;
     text-align:center;
     font-size:2vw;
-
 }
-.your-class div a{
+.navbar
+{
+    margin-bottom:0px;
+}
+.your-class div a
+{
     text-decoration:none;
 }
-.horizontal-lining{
+.horizontal-lining
+{
     border-top:1px solid black;
     border-bottom:1px solid black;
     padding:1vw 0;
@@ -52,14 +67,30 @@ input[type=text]:focus
         background-color:#2E86C1;
         min-height:150px;
     }
+    .upalab
+    {
+        height:7vw;
+        width:40%;
+    }
 
 }
 @media(max-width:900px)
 {
-   #wi{
+    .navigation
+    {
+        height:20px;
+    }
+    .upalab
+    {
+        height:50px;
+        width:60%;
+    }
+   #wi
+   {
        width:103%;
    }
-    .your-class img{
+    .your-class img
+   {
        height:170px;
    }
     body
