@@ -19,6 +19,7 @@ input[type=text]:focus
 .navbar
 {
     margin-bottom:0px;
+    height:10px;
 }
 .your-class div a
 {
@@ -71,8 +72,15 @@ input[type=text]:focus
     {
         height:7vw;
         width:40%;
+        display:inline-block;
+        margin-left:29%;
+        margin-right:15%;
     }
-
+    .searchbar
+    {
+        border-radius:7px;
+        width:15%;
+    }
 }
 @media(max-width:900px)
 {
@@ -84,6 +92,8 @@ input[type=text]:focus
     {
         height:50px;
         width:60%;
+        display:inline-block;
+        margin-left:19%;margin-right:15%;
     }
    #wi
    {
@@ -121,20 +131,24 @@ input[type=text]:focus
         {
             font-size:15px;
         }
-    
-
-        .footer
+    .footer
         {
             color:white;
             background-color:#2E86C1;
             min-height:550px;
         }
     .icons i
-    {
-        margin-right:30px;
-        transition: transform 1s;
-        color:white;
-    }
+        {
+            margin-right:30px;
+            transition: transform 1s;
+            color:white;
+        }
+    .searchbar
+        {
+            border-radius:7px;
+            width:90%;
+            margin-left:5%;
+        }
 
 }
 

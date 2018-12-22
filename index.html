@@ -19,8 +19,11 @@
     <title>Uplabdhiyan</title>
 </head>
 <body class="m-0 p-0" style="overflow-x: hidden;">
-        <img src="./assets/logo1.png" class="upalab"style="display:block;margin-left:auto;margin-right:auto;" alt="">
-        <nav class="navbar navbar-default m-0 p-0 " style="width:100%">
+        <div style="display:block;margin-left:auto;margin-right:auto;">
+          <img src="./assets/logo1.png" class="upalab" alt="">
+          <input type="text" id="myInput" class="fa form-control searchbar" style="" onkeyup="Search()" placeholder="&#xF002;Search for stories" title="Type in a name">
+        </div>
+          <nav class="navbar navbar-default m-0 p-0 " style="width:100%">
             <div class="container-fluid m-0 p-0 "  >
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -36,7 +39,6 @@
                 </ul>
                 <form class="navbar-form navbar-right navbar-form-center">
                   <div class="input-group">
-                      <input type="text" id="myInput" class="fa form-control" style="border-radius:7px;margin-top:8%;" onkeyup="Search()" placeholder="&#xF002;Search for names.." title="Type in a name">
                   </div>
                 </form>
             </div>
